@@ -1,0 +1,180 @@
+body{
+  background-color: black;
+  color: #cfcfcf;
+}
+
+/*То, что наверху*/
+header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-top: 0px;
+}
+
+.banner{
+  display: block;
+  margin-top: -500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+/*Ссылки*/
+a{
+  color: #876bcb;
+}
+
+/*Основной текст */
+p{
+  display: inline-block;
+  width: 1200px;
+  font-size: 25px;
+  font-family: URW Palladio L;
+  font-weight: bold;
+  font-style: italic;
+  color: #aaaaaa;
+  clear: both;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+h2{
+  font-family: Nimbus Roman No9 L I;
+  font-style: italic;
+  font-size: 30px;
+}
+
+li{
+  font-family: Nimbus Roman No9 L I;
+  font-style: italic;
+  font-size: 20px;
+  color: #cfcfcf;
+}
+
+.list-block__btn {
+	display: none;
+}
+.list-block__name-block { /*это по умолчанию*/
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 3px -10px -1px 0;
+    text-align: center;
+    color: #b3b3b3;
+    border: 5px solid #2d3f7a;
+    background: black;
+    cursor: pointer;
+    width: 18%;
+    font-size: 25px;
+    font-family: Century Schoolbook L;
+}
+
+.btn-firts {
+	margin-left: 1%;
+}
+.list-block__btn:checked + .list-block__name-block { /*это когда нажато*/
+  color: #fff;
+	background-color: #2c264a;
+	border: 5px solid #2d3f7a;
+	transition: ease 0.6s;
+}
+
+.block {
+	padding: 25px 60px;
+  display: none;
+  border: 0px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: regular;
+}
+
+btnwrapper {
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+
+.inflist > li {
+	display: list-item;
+}
+.infremark {
+	font-size: 16px;
+	line-height: 20px;
+}
+#tab_1:checked ~ .rules,
+#tab_2:checked ~ .claninf,
+#tab_3:checked ~ .maininf,
+#tab_4:checked ~ .sokrashenijainf,
+#tab_5:checked ~ .admininf {
+	display: block;
+	transition: ease 0.6s;
+}
+
+}
+.admininf__wrap {
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.admincard {
+	width: 250px;
+	margin: 10px 0px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.admincard__text {
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+/*Страдать фигней*/
+.vhod, .about-game, .contacts{
+  text-align: right;
+  display:inline-block;
+  color: #cfcfcf;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
+  float: right;
+  margin-left: 25px;
+  padding-top: 15px;
+  margin-bottom: 7px;
+  padding-bottom: -25px;
+  height: 25px;
+}
+
+.contacts{
+    margin-right: 50px;
+}
+
+footer{
+  display: inline-block;
+  width: 1250px;
+  background-image: url("../img/footer.jpg"); /*фоновый фото*/
+  background-size: 100%;
+  height: 75px;
+  margin-top: 40px;
+}
+
+.footer{
+  display: inline-block;
+  font-family: Standard Symbols L; /*стиль*/
+  clear: both; /*выровнить с обеих сторон*/
+  font-size: 17px;
+  text-align: center;
+  position: bottom;
+}
