@@ -130,11 +130,6 @@ btnwrapper {
   margin-right: 40px;
   min-height: 200px;
 }
-.admin-last{
-  position:relative;
-  left: -865px;
-  top: 50px;
-}
 .admincard__text {
 	font-size: 16px;
 	line-height: 20px;
