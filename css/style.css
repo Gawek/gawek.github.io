@@ -125,10 +125,11 @@ btnwrapper {
 }
 .admincard{
   display: block;
-  width: 250px;
+  width: 260px;
   float:left;
-  margin-right: 40px;
+  margin-right: 5px;
   min-height: 200px;
+  margin-left: -25px;
 }
 .admincard__text {
 	font-size: 16px;
